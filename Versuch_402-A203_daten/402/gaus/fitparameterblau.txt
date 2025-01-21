@@ -1,0 +1,6 @@
+g2_amplitude	0.3471
+g2_center	-0.3282
+g2_sigma	0.0461
+g1_amplitude	2.22
+g1_center	0.0518
+g1_sigma	0.0458

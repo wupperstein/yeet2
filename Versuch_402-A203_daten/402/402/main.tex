@@ -1,0 +1,93 @@
+\documentclass{article}
+% \usepackage{graphicx}
+\usepackage{pgfplotstable}
+% \pgfplotsset{compat=1.18}
+% \usepackage{amsmath}
+% \usepackage{subfig}
+% \usepackage{imakeidx}
+
+\title{tablemaker}
+\author{darrotom2 }
+\date{September 2024}
+
+\begin{document}
+
+% \maketitle
+\pgfplotstabletypeset[
+    columns/0/.style={column name={$\nu$[$10^{14}$ Hz]}},
+    columns/1/.style={column name={$U_{0}$ [$\text{V}^2$]}},
+    header=false,
+    string type,
+    before row=\hline,
+    every last row/.style={after row=\hline},
+    column type/.add={|}{},
+    every last column/.style={column type/.add={}{|}}
+]{data.txt}
+
+\pgfplotstabletypeset[
+    columns/0/.style={column name={$\nu$[$10^{14}$ Hz]}},
+    columns/1/.style={column name={$U_{0}$ [$\text{V}^2$]}},
+    header=false,
+    string type,
+    before row=\hline,
+    every last row/.style={after row=\hline},
+    column type/.add={|}{},
+    every last column/.style={column type/.add={}{|}}
+]{./Data/365_.txt}
+
+\pgfplotstabletypeset[
+    columns/0/.style={column name={$\nu$[$10^{14}$ Hz]}},
+    columns/1/.style={column name={$U_{0}$ [$\text{V}^2$]}},
+    header=false,
+    string type,
+    before row=\hline,
+    every last row/.style={after row=\hline},
+    column type/.add={|}{},
+    every last column/.style={column type/.add={}{|}}
+]{./Data/405_.txt}
+
+\pgfplotstabletypeset[
+    columns/0/.style={column name={$\nu$[$10^{14}$ Hz]}},
+    columns/1/.style={column name={$U_{0}$ [$\text{V}^2$]}},
+    header=false,
+    string type,
+    before row=\hline,
+    every last row/.style={after row=\hline},
+    column type/.add={|}{},
+    every last column/.style={column type/.add={}{|}}
+]{./Data/436_.txt}
+
+\pgfplotstabletypeset[
+    columns/0/.style={column name={$\nu$[$10^{14}$ Hz]}},
+    columns/1/.style={column name={$U_{0}$ [$\text{V}^2$]}},
+    header=false,
+    string type,
+    before row=\hline,
+    every last row/.style={after row=\hline},
+    column type/.add={|}{},
+    every last column/.style={column type/.add={}{|}}
+]{./Data/546_.txt}
+
+\pgfplotstabletypeset[
+    columns/0/.style={column name={$\nu$[$10^{14}$ Hz]}},
+    columns/1/.style={column name={$U_{0}$ [$\text{V}^2$]}},
+    header=false,
+    string type,
+    before row=\hline,
+    every last row/.style={after row=\hline},
+    column type/.add={|}{},
+    every last column/.style={column type/.add={}{|}}
+]{./Data/578_.txt}
+
+\pgfplotstabletypeset[
+    columns/0/.style={column name={$\nu$[$10^{14}$ Hz]}},
+    columns/1/.style={column name={$U_{0}$ [$\text{V}^2$]}},
+    header=false,
+    string type,
+    before row=\hline,
+    every last row/.style={after row=\hline},
+    column type/.add={|}{},
+    every last column/.style={column type/.add={}{|}}
+]{./Data/365h.txt}
+
+\end{document}
