@@ -2,3 +2,6 @@ Wofür welches c++ file ist:
 - ana1: Drahtansprecher
 - analysis: Drahtkorrelationen und ungefiltertes Driftzeit- Spektrum
 - tot: Time over total und filtern
+- abstand: Abstandssumme gegen abstandsdifferenz
+- W: winkelverteilung einfach
+- winkelverteilung: Winkelverteilung mit dem hergeleitetem (funzt nicht)
